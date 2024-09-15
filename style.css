@@ -1,21 +1,32 @@
 #menu{
     list-style-type: none;
     display: flex; 
+    justify-content: center;
+    
 }
 
 .elements-menu{
     margin: 10px;
+    position:static;  /*se posiciona de acordo com o fluxo da pagina*/
 }
 
 .btns-menu{
     text-decoration: none;
     color:rgb(253, 253, 253);
+    
+}
 
+#titulo-pagamento{
+    color:white;
+}
+
+#titulo-cliente{
+    color:white;
 }
 
 header{
     background-color: black;
-    text-align:center;
+    text-align:center; /*centraliza horizontalmente*/
     padding: 5px; 
 }
 
@@ -29,29 +40,123 @@ header{
     height: 220px;
 }
 
+#formulario-pagamento img{
+    width: 250px;
+    height: 220px;
+}
+
 #logoMec {
     width:130px;
     height: 100px; 
 }
 
 #btn-iniciarPedido{
-    border: none;
-    border-width: 3px;
+    border-color:rgb(0, 0, 0);
+    border-width: 2px;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(255, 175, 37);
+    background: none;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
 
 #btn-voltar{
-    border: none;
+    border-color: black;
     border-width: 3px;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
-    font-size: 20px;
-    color: rgb(244, 228, 228);
+    background: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-left: 70px;
 }
+
+#btn-proximo{
+    border-color: black;
+    border-width: 3px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    float:right;
+    margin-right: 70px;
+}
+
+#section-inicio{
+    text-align: center; /*centraliza horizontalmente*/
+    padding: 150px 0; /*centraaliza verticalmente*/
+    position:static;  /*se posiciona de acordo com o fluxo da pagina*/
+}
+
+#formulario-combos{
+    display: flex;
+    flex-wrap:wrap; /*quabra para linha de baixo quando diminui a tela*/
+}
+
+#formulario-lanches{
+    display: flex;
+    flex-wrap:wrap; /*quabra para linha de baixo quando diminui a tela*/
+}
+
+#formulario-bebidas{
+    display: flex;
+    flex-wrap:wrap; /*quabra para linha de baixo quando diminui a tela*/
+}
+
+#formulario-sobremesas{
+    display: flex;
+    flex-wrap:wrap; /*quabra para linha de baixo quando diminui a tela*/
+}
+
+#formulario-pagamento{
+    display: flex;
+    flex-wrap:wrap; /*quabra para linha de baixo quando diminui a tela*/
+    text-align: center; /*centraliza horizontalmente*/
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;     /* Centraliza os itens verticalmente dentro da linha */
+}
+
+#cliente-nome, #cliente-cpf{
+    border-color: black;
+    border-width: 1px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+#cliente{
+    padding: 150px 0; /*centraaliza verticalmente*/
+    text-align: center;
+}
+
+#pedido-finalizado{
+    padding: 150px 0; /*centraaliza verticalmente*/
+    text-align: center;
+}
+
+.btn-finalizado{
+    border-color: black;
+    border-width: 2px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+#logoMecFim {
+    width:130px;
+    height: 100px; 
+    
+    
+}
+
