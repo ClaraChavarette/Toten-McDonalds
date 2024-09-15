@@ -1,0 +1,20 @@
+#menu{
+    list-style-type: none;
+    display: flex; 
+}
+
+.elements-menu{
+    margin: 10px;
+}
+
+.btns-menu{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+
+}
+
+header{
+    background-color: black;
+    text-align:center;
+    padding: 5px; 
+}
