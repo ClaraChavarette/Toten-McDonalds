@@ -18,3 +18,13 @@ header{
     text-align:center;
     padding: 5px; 
 }
+
+#formulario-bebidas img{
+    width: 230px;
+    height: 120px;
+}
+
+#formulario-sobremesas img{
+    width: 230px;
+    height: 220px;
+}
